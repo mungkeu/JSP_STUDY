@@ -17,7 +17,7 @@
 <c:set var="age">30</c:set>
 2. ${age} <br>
 <hr>
-<c:set var="member" value="<%=new com.saeyan.javabeans.MemberBean()%>"></c:set>
+<c:set var="member" value="<%=new com.com.saeyan.javabeans.MemberBean()%>"></c:set>
 <c:set target="${member}" property="name" value="손기명"></c:set>
 <c:set target="${member}" property="userid" value="admin"></c:set>
 3. ${member} <br>

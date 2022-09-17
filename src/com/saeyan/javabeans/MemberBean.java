@@ -1,4 +1,4 @@
-package saeyan.javabeans;
+package com.saeyan.javabeans;
 
 public class MemberBean {
     private String name;

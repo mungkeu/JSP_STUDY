@@ -1,6 +1,6 @@
 package unit09;
 
-import saeyan.javabeans.MemberBean;
+import com.saeyan.javabeans.MemberBean;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
