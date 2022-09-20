@@ -1,6 +1,6 @@
 package com.saeyan.controller;
 
-import com.saeyan.dto.MemberDAO;
+import com.saeyan.dao.MemberDAO;
 import com.saeyan.dto.MemberVO;
 
 import javax.servlet.RequestDispatcher;

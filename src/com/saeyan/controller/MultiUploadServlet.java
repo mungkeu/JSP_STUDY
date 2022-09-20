@@ -37,10 +37,14 @@ public class MultiUploadServlet extends HttpServlet {
                     new DefaultFileRenamePolicy()
             );
             Enumeration files = multi.getFileNames();
+
+            // boolean hasMoreElements() : 데이터(element)가 존재한다면 true를 반환하고 없으면 false를 반환한다.
             while(files.hasMoreElements()){
+                // E nextElement() : 데이터(element)를 얻어낸다.
                 String file = (String) files.nextElement();
                 String file_name=multi.getFilesystemName(file);
-                // 중복된 파일을 업로드할 경우 파일명이 바뀐다.
+                // 중복된 파일을 업로드할 경우 파일명이 바뀌므로 번호가 붙기전 원본 파일명을 출력하고자 할때
+                // getOriginalFileName() 메서드를 사용한다.
                 String ori_file_name = multi.getOriginalFileName(file);
                 out.print("<br> 업로드돤 파일명 : " + file_name);
                 out.print("<br> 원본 파일명 : " + ori_file_name);

@@ -1,4 +1,4 @@
-<%@ page import="com.saeyan.dto.MemberDAO" %>
+<%@ page import="com.saeyan.dao.MemberDAO" %>
 <%@ page import="com.saeyan.javabeans.MemberBean" %>
 <%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.

@@ -1,6 +1,8 @@
-package com.saeyan.dto;
+package com.saeyan.dao;
 
-import javax.annotation.Resource;
+import com.saeyan.dto.MemberVO;
+import com.saeyan.util.DBManager;
+
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
