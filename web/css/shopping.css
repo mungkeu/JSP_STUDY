@@ -19,6 +19,7 @@ table td, th{
 }
 th{
     background: yellowgreen;
+    width: 120px;
 }
 img{
     width: 220px;
